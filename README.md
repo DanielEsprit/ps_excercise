@@ -3,8 +3,34 @@ PS Project
 
 This a content package project generated using the multimodule-content-package-archetype.
 
+Project Overview
+--------
+
+This is a test to fulfil the requirements of a test
+1.	Create a service in AEM which makes a GET request to fetch response from https://api.chucknorris.io/jokes/random after interval of every 2mins. Store the last 10 (configurable) responses from above API in AEM.
+    Make sure an object does not appear twice in the last 10 responses stored.
+2.	Create a component to display the response on a page
+
+Once installed you should be able to navigate to the page localhost:450X/content/chuck-norris-page/display-page.html to view the rendered page.
+
+Please refer to the **NOTES** and **BUILDING** sections on how to deploy.
+
+Notes
+--------
+
+**PLEASE MAKE SURE ACS-AEM-COMMONS-CONTENT** is installed first before building this package
+
+This project depends on acs-aem-commons-content, the assumption is that this has aready 
+been installed on the AEM instance.
+
+I personally made use of version 3.17.0 but this may not be the same for all users, so I 
+did not include a sub package installation of the specific version that I needed.
+
+
 Building
 --------
+
+**PLEASE MAKE SURE ACS-AEM-COMMONS-CONTENT** is installed first before building this package
 
 This project uses Maven for building. Common commands:
 
