@@ -1,0 +1,21 @@
+{
+    "jcr:primaryType": "cq:Page",
+    "jcr:content": {
+        "jcr:primaryType": "nt:unstructured",
+        "jcr:title": "Chuck Norris Site",
+        "sling:redirect": true,
+        "sling:redirectStatus": 302,
+        "redirectTarget": "/content/chuck-norris-page/display-page",
+        "sling:resourceType": "foundation/components/redirect"
+    },
+
+    "display-page" : {
+        "jcr:primaryType": "cq:Page",
+        "jcr:content" : {
+            "jcr:primaryType": "nt:unstructured",
+            "jcr:title": "Chuck Norris Display Page",
+            "sling:resourceType": "ps_project/components/page/chuck-norris-page",
+            "cq:template" : "ps_project/components/template/chuck-norris-template"
+        }
+    }
+}
