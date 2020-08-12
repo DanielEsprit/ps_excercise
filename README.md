@@ -12,8 +12,10 @@ This is a test to fulfil the requirements of a test
 2.	Create a component to display the response on a page
 
 Once installed you should be able to navigate to the page localhost:450X/content/chuck-norris-page/display-page.html to view the rendered page.
+The Chuck Norris jokes are stored under the folder "/etc/chuck-norris/chuck-norris-data".
+The content pages and the joke storage locations are created on the install of the bundle.
 
-The service user chuckserviceuser is created making use of, ACS Commons Ensure user, which requires acs commons (>3.17.0) to be present on the running target instance for installation. 
+The service user "chuckserviceuser" is created making use of, ACS Commons Ensure user, which requires acs commons (>3.17.0) to be present on the running target instance for installation. 
 
 Please refer to the **NOTES** and **BUILDING** sections on how to deploy.
 
