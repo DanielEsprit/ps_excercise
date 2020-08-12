@@ -6,8 +6,8 @@
     buildCount="1"
     cqVersion="6.2"
     group="Daniel Esprit"
-    name="ps-excercise-content"
-    path="/etc/packages/Daniel Esprit/ps-excercise-content-1.0-SNAPSHOT"
+    name="ps-exercise-content"
+    path="/etc/packages/Daniel Esprit/ps-exercise-content-1.0-SNAPSHOT"
     version="1.0-SNAPSHOT">
     <filter jcr:primaryType="nt:unstructured">
         <f0
