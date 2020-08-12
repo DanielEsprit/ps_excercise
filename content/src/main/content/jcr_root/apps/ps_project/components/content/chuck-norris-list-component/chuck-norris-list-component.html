@@ -1,0 +1,11 @@
+<sly data-sly-use.chuckNorris="com.excercise.playstation.core.models.ChuckNorrisListComponent" />
+
+<sly data-sly-list.joke="${chuckNorris.jokes}">
+    <div>
+        <p>${joke.value}</p>
+        <a href="${joke.url}">Orginal Joke</a>
+        <sly data-sly-list.category="${joke.categories}">
+            <span>category</span> ${ !categoryList.last ? "," : "" }
+        </sly>
+    </div>
+</sly>
